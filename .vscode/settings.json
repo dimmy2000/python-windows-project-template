@@ -1,5 +1,17 @@
 {
     "isort.importStrategy": "useBundled",
+    "markdown-pdf.convertOnSave": true,
+    "markdown-pdf.convertOnSaveExclude": [
+        "^work",
+        "work.md$",
+        "^(?![Rr][Ee][Aa][Dd][Mm][Ee]).*$",
+        "work|test",
+        "[0-9][0-9][0-9][0-9]-work",
+        "work\\test"  // All '\' need to be written as '\\' (Windows)
+      ],
+    "markdown-pdf.type": [
+        "pdf"
+    ],
     "python.analysis.autoImportCompletions": true,
     "python.analysis.completeFunctionParens": false,
     "python.formatting.provider": "black",

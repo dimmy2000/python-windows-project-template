@@ -2,6 +2,7 @@
     "recommendations": [
         "irongeek.vscode-env",
         "ms-python.isort",
-        "ms-python.python"
+        "ms-python.python",
+        "yzane.markdown-pdf"
     ]
 }
