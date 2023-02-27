@@ -1,0 +1,6 @@
+black==23.1.0
+flake8==6.0.0
+flake8-isort==6.0.0
+python-dotenv==0.21.1
+pywin32==305
+tenacity==8.2.1
